@@ -1,6 +1,0 @@
-myScene = simpleGameEngine('retro_pack.png',16,16,10,[224,224,224]);
-drawScene(myScene,[1,669,1,670,1,671,1,672,1;1,701,1,702,1,703,1,704,1; ...
-    linspace(1,1,9);linspace(1,1,9);linspace(1,1,9);linspace(1,1,9);...
-    linspace(1,1,9);linspace(1,1,9);linspace(1,1,9);])
-%blank arrows- 669,670,671,672
-%filled arrows- 701-7003
