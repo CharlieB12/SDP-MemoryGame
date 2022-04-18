@@ -13,7 +13,9 @@ classdef start_menu < matlab.apps.AppBase
 
         % Image clicked function: Image2
         function Image2Clicked(app, event)
+            app.delete;
             memoryGame;
+            
         end
     end
 
@@ -25,7 +27,7 @@ classdef start_menu < matlab.apps.AppBase
 
             % Create UIFigure and hide until all components are created
             app.UIFigure = uifigure('Visible', 'off');
-            app.UIFigure.Position = [100 100 640 480];
+            app.UIFigure.Position = [600 300 640 480];
             app.UIFigure.Name = 'MATLAB App';
 
             % Create Panel
